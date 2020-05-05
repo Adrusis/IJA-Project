@@ -1,3 +1,4 @@
 # IJA-Project
 Projekt z IJA
-Deadline 03.05.2020
+Zapisovanie dohajoby 06.05.2020
+Deadline 15.05.2020
