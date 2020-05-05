@@ -1,6 +1,7 @@
 package ija.ija2019.homework2.MyMaps;
 
 import ija.ija2019.homework2.maps.Line;
+import ija.ija2019.homework2.maps.Spoj;
 import ija.ija2019.homework2.maps.Stop;
 import ija.ija2019.homework2.maps.Street;
 
@@ -10,6 +11,7 @@ public class MyLine implements Line {
     private String id;
     private List<Stop> stops = new ArrayList<Stop>();
     private List<Street> streets = new ArrayList<>();
+    private List<Spoj> spoje = new ArrayList<>();
     private final List<AbstractMap.SimpleImmutableEntry<Street,Stop>> route = new ArrayList<>();
 
     public MyLine(String id) {
@@ -56,6 +58,12 @@ public class MyLine implements Line {
             return  true;
         }
         return false;
+    }
+
+    @Override
+    public void addSpoj(Spoj id) {
+        spoje.add(id);
+
     }
 
 

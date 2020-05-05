@@ -15,6 +15,8 @@ public interface Line {
         return new MyLine(id);
     }
 
+    public void addSpoj(Spoj id);
+
     public  List<AbstractMap.SimpleImmutableEntry<Street,Stop>> getRoute();
 
 
