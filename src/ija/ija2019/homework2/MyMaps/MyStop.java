@@ -10,6 +10,7 @@ public class MyStop implements Stop {
     private final String id;
     private Coordinate coordinate;
     private Street street;
+    private String type;
 
     public MyStop(String id, Coordinate c) {
         this.id = id;
@@ -40,6 +41,11 @@ public class MyStop implements Stop {
             return null;
         }
         return street;
+    }
+
+    @Override
+    public void addType(String type) {
+        this.type = type;
     }
 
     @Override

@@ -18,5 +18,7 @@ public interface Stop {
 
 
     public Street getStreet();
+
+    public void addType (String type);
 }
 

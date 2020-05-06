@@ -19,5 +19,4 @@ public interface Line {
 
     public  List<AbstractMap.SimpleImmutableEntry<Street,Stop>> getRoute();
 
-
 }
