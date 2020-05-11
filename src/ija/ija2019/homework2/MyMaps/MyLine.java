@@ -48,6 +48,10 @@ public class MyLine implements Line {
 
     @Override
     public boolean addStreet(Street street) {
+        if (streets.size() == 0){
+            streets.add(street);
+            return true;
+        }
         if(street.follows(streets.get(streets.size()-1))){
             streets.add(street);
             if(streets.get(streets.size()-1).getStops().size()==0)

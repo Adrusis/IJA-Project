@@ -1,0 +1,12 @@
+Zastavka0:58,700
+Zastavka1:90,555
+Zastavka2:158,510
+Zastavka3:100,418
+Zastavka0:611,90
+Zastavka1:500,112
+Zastavka2:427,215
+Zastavka3:531,287
+Zastavka0:603,555
+Zastavka1:591,714
+Zastavka2:436,725
+Zastavka3:427,505
